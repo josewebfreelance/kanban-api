@@ -1,6 +1,7 @@
 # Entorno virtual
 venv/
 .venv/
+kanban-api-env/
 
 # Archivos de Python generados
 *.pyc
