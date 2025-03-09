@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, String, DateTime
-from ..config.database import Base
+from config.database import Base
 
-class Task(Base):
+class TaskModel(Base):
     __tablename__ = "Tasks"
     
     id = Column(Integer, primary_key = True, index = True)

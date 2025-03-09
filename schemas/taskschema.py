@@ -10,7 +10,7 @@ class TaskBase(BaseModel):
     priority: Optional[str] = None
     created_at: str
     
-class TaskCrate(TaskBase):
+class TaskCreate(TaskBase):
     pass
 
 class Task(TaskBase):
