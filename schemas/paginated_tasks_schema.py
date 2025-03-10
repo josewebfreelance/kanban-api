@@ -1,9 +1,9 @@
 from pydantic import BaseModel
 from typing import List
-from schemas import taskschema
+from schemas import task_schema
 
 class PaginatedTasksSchema(BaseModel):
-    content: List[taskschema.Task]
+    content: List[task_schema.Task]
     first_page: bool
     last_page: bool
     page: int
